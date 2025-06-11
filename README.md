@@ -52,6 +52,52 @@ Private Key (Hex): abc123...
 python BTC2_bulk_wallets.py
 📄 This will generate 10 random BTC2 compressed addresses and save them to btc2_wallets.csv.
 
+
+🎯 BTC2 Vanity Address Generator (Compressed Only)
+Generate a Bitcoin2 address that starts with your desired vanity prefix using 18 threads for faster results. Example: 1BTC, 1KING, 1Dork, etc.
+
+⚠️ Compressed addresses only (for modern security & compatibility)
+
+🛠 Requirements
+Make sure Python 3 is installed with the following packages:
+
+bash
+Copy
+Edit
+pip install base58 ecdsa
+🚀 How to Run
+bash
+Copy
+Edit
+python btc2_vanity_search.py <VanityPrefix>
+Replace <VanityPrefix> with your desired starting characters.
+
+🔍 Example:
+bash
+Copy
+Edit
+python btc2_vanity_search.py 1BTC2
+✅ Sample Output
+vbnet
+Copy
+Edit
+🚀 Searching for BTC2 compressed address starting with: 1BTC2
+🧵 Using 18 threads...
+
+🎯 MATCH FOUND!
+Address: 1BTC26hk75TsKUUgBTVe58LDmntS7WKM9r
+WIF: L1MnNNzdS5Co9wFyLygnoaBtrTEvEhcoHFWt5d3FymPfrVoN5W6H
+Hex: 7b8090ab45950316ac75fd654b71be4b9380dbda31d522dab06aa7d377876c85
+
+✅ Done in 207.58 seconds.
+🔒 Notes
+Stops automatically after the first match is found.
+
+Uses all 18 threads for maximum speed (adjustable in the script).
+
+Fully offline — no data is sent or shared.
+
+
 ⚠️ Disclaimer
 This is an educational tool.
 Always verify wallet addresses before sending real BTC2.
