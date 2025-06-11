@@ -66,12 +66,14 @@ Hex: 7b8090ab45950316ac75fd654b71be4b9380dbda31d522dab06aa7d377876c85
 
 ## 📦 Files
 
-| File                  | Description                                           |
-|-----------------------|-------------------------------------------------------|
-| `BTC2wallet.py`       | Generates a single BTC2 compressed paper wallet       |
-| `BTC2_bulk_wallets.py`| Generates 10 compressed wallets and saves to `.csv`   |
-| `btc2_vanity_search.py` | Vanity address generator using 18 threads           |
-| `sample_btc2_wallets.csv` | Sample output file for bulk generation            |
+| File                         | Description                                                        |
+|------------------------------|--------------------------------------------------------------------|
+| `BTC2wallet.py`              | Generates a single BTC2 compressed paper wallet                    |
+| `BTC2_bulk_wallets.py`       | Generates 10 compressed wallets and saves to `.csv`                |
+| `btc2_vanity_search.py`      | Vanity address generator using 18 threads                          |
+| `sample_btc2_wallets.csv`    | Sample output file for bulk generation                             |
+| `BTC2_Windows_Core_Wallet_Guide.md` | [Setup guide for installing and running the BTC2 Core Wallet on Windows](./BTC2_Windows_Core_Wallet_Guide.md) |
+
 
 ---
 
