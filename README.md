@@ -5,6 +5,17 @@ An open-source, offline tool to generate compressed Bitcoin 2 (BTC2) wallets —
 
 ---
 
+## 🧰 Features
+
+- 🔑 Generates compressed BTC2 addresses (WIF + HEX)  
+- 🎯 High-speed vanity address generator  
+- 📄 Bulk generation: save 10 addresses to a `.csv` file  
+- 💻 CLI (Command Line Interface) — Python-based  
+- 💯 Fully offline — no internet required  
+- 🧠 Beginner friendly  
+
+---
+
 ## 🎯 BTC2 Vanity Address Generator (Compressed Only)
 
 Generate a BTC2 address that starts with your desired vanity prefix using **18 threads** for fast results.  
@@ -61,17 +72,6 @@ Hex: 7b8090ab45950316ac75fd654b71be4b9380dbda31d522dab06aa7d377876c85
 - Script stops automatically after the first match is found  
 - Uses all 18 threads for max speed (adjustable in code)  
 - Fully offline — no internet access required  
-
----
-
-## 🧰 Features
-
-- 🔑 Generates compressed BTC2 addresses (WIF + HEX)  
-- 🎯 High-speed vanity address generator  
-- 📄 Bulk generation: save 10 addresses to a `.csv` file  
-- 💻 CLI (Command Line Interface) — Python-based  
-- 💯 Fully offline — no internet required  
-- 🧠 Beginner friendly  
 
 ---
 
@@ -134,10 +134,3 @@ If this project helped you, consider donating to support future development:
 
 **BTC2 Address:**  
 `1Dork37FWZqFefKiW9yGVKFqNkmKRU8qyh`
-
----
-
-## 🙌 Credits
-
-- Maintained by [@TheCrazyDoc](https://github.com/TheCrazyDoc)  
-- Inspired by the mission of **#Bitcoin2** — *fast, fair, and accessible crypto for all*
