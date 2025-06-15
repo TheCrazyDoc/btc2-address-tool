@@ -119,6 +119,32 @@ Generates 10 compressed addresses and saves them to `btc2_wallets.csv`.
 
 ---
 
+
+---
+
+## 🌐 BTC2 Paper Wallet (Offline HTML)
+
+We’ve included a fully offline HTML tool to generate a **single BTC2 paper wallet** (compressed address only).
+
+### 🔹 Features:
+- Runs completely in your browser (no install needed)
+- Includes compressed address, WIF key, and HEX private key
+- Optimized for print (fits on 1 page)
+- Uses high-entropy RNG (safe for offline use)
+
+### 🔸 How to Use:
+1. Open `index.html` in your browser (no internet required)
+2. Click **“Generate New Wallet”**
+3. Print or save your wallet securely
+
+### 📁 File:
+| File         | Description                                |
+|--------------|--------------------------------------------|
+| `index.html` | BTC2 paper wallet generator (single, offline) |
+
+> ⚠️ For maximum safety, run this file on an air-gapped (offline) device.
+
+
 ## ⚠️ Disclaimer
 
 - This is an educational tool.  
@@ -134,3 +160,4 @@ If this project helped you, consider donating to support future development:
 
 **BTC2 Address:**  
 `1Dork37FWZqFefKiW9yGVKFqNkmKRU8qyh`
+
