@@ -160,4 +160,3 @@ If this project helped you, consider donating to support future development:
 
 **BTC2 Address:**  
 `1Dork37FWZqFefKiW9yGVKFqNkmKRU8qyh`
-
